@@ -45,7 +45,7 @@ x-casaos:
     - arm64
   main: logseq
   author: CasaOS Team
-  category: Notes
+  category: Utilities
   description:
     en_us: A privacy-first, open-source platform for knowledge management and collaboration.
     zh_cn: A privacy-first, open-source platform for knowledge management and collaboration.
