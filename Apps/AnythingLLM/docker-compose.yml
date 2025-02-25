@@ -20,6 +20,7 @@ services:
 x-casaos:
   architectures:
     - amd64
+    - arm64
   main: anythingllm
   developer: Mintplex Labs
   category: Chat
