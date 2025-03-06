@@ -20,7 +20,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB2 }}
         with:
           source-directory: './Apps'
-          destination-github-username: 'IceWhaleTech'
+          destination-github-username: 'cccczl'
           destination-repository-name: '_appstore'
           user-email: q2676515970@163.com
           target-directory: './Apps'
@@ -29,7 +29,7 @@ jobs:
         with:
           personal_token: ${{ secrets.API_TOKEN_GITHUB2 }}
           src_path: ./recommend-list.json
-          dst_owner: IceWhaleTech
+          dst_owner: cccczl
           dst_repo_name: _appstore
           email: q2676515970@163.com
           src_branch: main

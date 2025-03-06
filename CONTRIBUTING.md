@@ -6,7 +6,7 @@ This document describes how to contribute an app to CasaOS AppStore.
 
 **NOTE**: The legacy `appfile.json` is no longer supported since CasaOS v0.4.4. There is no need to include this file in your PR.
 
-**NOTE**: Do not use `latest` tag for `image`. [What's Wrong With The Docker `:latest` Tag?](https://github.com/IceWhaleTech/CasaOS-AppStore/issues/167)
+**NOTE**: Do not use `latest` tag for `image`. [What's Wrong With The Docker `:latest` Tag?](https://github.com/cccczl/CasaOS-AppStore/issues/167)
 
 ## Submit Process
 
@@ -51,7 +51,7 @@ Each directory under [Apps](Apps) correspond to a CasaOS App. The directory shou
 
 - Image tag should be specific, e.g. `:0.1.2`, instead of `:latest`.
 
-  > [What's Wrong With The Docker `:latest` Tag?](https://github.com/IceWhaleTech/CasaOS-AppStore/issues/167)
+  > [What's Wrong With The Docker `:latest` Tag?](https://github.com/cccczl/CasaOS-AppStore/issues/167)
 
 - The `name` property is used as the *store App ID*, which should be unique across all apps.
 
@@ -125,10 +125,10 @@ Each directory under [Apps](Apps) correspond to a CasaOS App. The directory shou
             description:                    # multiple locales are supported
                 en_us: Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it's transmitted over the internet.
             developer: Syncthing
-            icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Syncthing/icon.png
+            icon: https://cdn.jsdelivr.net/gh/cccczl/CasaOS-AppStore@main/Apps/Syncthing/icon.png
             tagline:                        # multiple locales are supported
                 en_us: Free, secure, and distributed file synchronisation tool.
-            thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/thumbnail.jpg
+            thumbnail: https://cdn.jsdelivr.net/gh/cccczl/CasaOS-AppStore@main/Apps/Jellyfin/thumbnail.jpg
             title:                          # multiple locales are supported
                 en_us: Syncthing
             tips:

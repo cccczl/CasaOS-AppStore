@@ -52,7 +52,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB2 }}
         with:
           source-directory: 'pages'
-          destination-github-username: 'IceWhaleTech'
+          destination-github-username: 'cccczl'
           destination-repository-name: 'CasaOS-AppStore'
           target-branch: 'gh-pages'
           user-email: wiki@casaos.io
